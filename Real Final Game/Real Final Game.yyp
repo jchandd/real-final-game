@@ -17,6 +17,7 @@
     {"id":{"name":"obj_MC","path":"objects/obj_MC/obj_MC.yy",},"order":0,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":1,},
     {"id":{"name":"spr_manual","path":"sprites/spr_manual/spr_manual.yy",},"order":3,},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":5,},
     {"id":{"name":"level_start","path":"rooms/level_start/level_start.yy",},"order":0,},
   ],
   "Options": [
