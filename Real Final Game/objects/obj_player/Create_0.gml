@@ -15,3 +15,9 @@ climb_speed = 2.5;        // Climbing speed
 ground_object = obj_ground;   // Replace with your ground object's name
 ladder_object = obj_ladder;   // Replace with your ladder object's name
 
+shoot_timer = 0;
+shoot_cooldown = 10; // Adjust this for fire rate (lower is faster)
+
+max_health = 100;
+current_health = max_health;
+
