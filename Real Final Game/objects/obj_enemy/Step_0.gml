@@ -11,3 +11,28 @@ if (x > room_width) {
 else if (x < 0) {
     direction = 1; // Reverse direction (move right)
 }
+
+if health_ <= 0 {
+	instance_destroy();
+}
+// Check if enemy is outside room boundaries
+if (x < 0) {
+    x = 0;
+    // Pick a random new direction going right/down/up/left (but not outside)
+    var angle = irandom_range(45, 135); // roughly pointing right and down
+    hspeed = lengthdir_x(abs(hspeed), angle);
+    vspeed = lengthdir_y(abs(vspeed), angle);
+}
+else if (x > room_width - sprite_width) {
+    x = room_width - sprite_width;
+    var angle = irandom_range(225, 315); // roughly pointing left and up
+    hspeed = lengthdir_x(abs(hspeed), angle);
+    vspeed = lengthdir_y(abs(vspeed), angle);
+}
+
+if (y < 0) {
+    y = 0;
+    var angle = irandom_range(135, 225); // roughly pointing left and down
+    hspeed = lengthdir_x(abs(hspeed), angle);
+    vspeed = lengthdir_y(abs(vspeed), angle);
+}

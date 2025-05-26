@@ -37,3 +37,15 @@ if (x < -20 || x > room_width + 20 || y > room_height + 20 || y < -200) {
 		room_restart();  // Restart the room if outside the boundaries we set	
 }
 
+
+// Shooting mechanic (shoot while mouse button is held down)
+if (mouse_check_button(mb_left)) {
+    // Create the bullet at the player's position
+    var bullet = instance_create_layer(x, y, layer, obj_bullet);
+    
+    // Set the bullet's direction towards the mouse
+    bullet.direction = point_direction(x, y, mouse_x, mouse_y);
+    
+    // Set bullet speed (ensure this is either done in the bullet's Create Event or
+
+}

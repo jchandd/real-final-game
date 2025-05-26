@@ -6,12 +6,6 @@ max_fall_speed = 10;      // Max downward speed
 move_x = 0;				  // Horizontal movement
 move_y = 0;			      // Vertical movement
 
-// WASD
-keyboard_set_map(ord("W"), vk_up);
-keyboard_set_map(ord("A"), vk_left);
-keyboard_set_map(ord("S"), vk_down);
-keyboard_set_map(ord("D"), vk_right);
-
 // ######################## STATE VARIABLES ########################
 is_grounded = false;      // On ground?
 is_climbing = false;      // On ladder?
@@ -21,16 +15,9 @@ climb_speed = 2.5;        // Climbing speed
 ground_object = obj_ground;   // Replace with your ground object's name
 ladder_object = obj_ladder;   // Replace with your ladder object's name
 
+shoot_timer = 0;
+shoot_cooldown = 50; // Adjust this for fire rate (lower is faster)
 
-// bullet cooldown
-bullet_cooldown_ = room_speed/6;
-alarm[0] = bullet_cooldown_;
-dir = 0;
-
-//Health
-// Maximum health
 max_health = 100;
-
-// Current health
-health = max_health;
+current_health = max_health;
 
