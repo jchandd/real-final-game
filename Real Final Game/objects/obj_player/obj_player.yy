@@ -6,7 +6,7 @@
     "name": "spr_MC",
     "path": "sprites/spr_MC/spr_MC.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
