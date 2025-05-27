@@ -1,1 +1,1 @@
-room_goto(level_start)
+room_restart();
