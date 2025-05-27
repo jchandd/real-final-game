@@ -29,7 +29,7 @@ dir = 0;
 
 //Health
 // Maximum health
-max_health = 100;
+max_health = 1000;
 
 // Current health
 health = max_health;
