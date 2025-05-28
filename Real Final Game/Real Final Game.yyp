@@ -13,6 +13,7 @@
     {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"order":4,},
     {"id":{"name":"level_2","path":"rooms/level_2/level_2.yy",},"order":2,},
     {"id":{"name":"spr_MC","path":"sprites/spr_MC/spr_MC.yy",},"order":0,},
+    {"id":{"name":"spr_bossdth","path":"sprites/spr_bossdth/spr_bossdth.yy",},"order":11,},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},"order":4,},
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},"order":7,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":5,},

@@ -5,3 +5,7 @@ shoot_cooldown = 30;
 pause_timer = 0;
 shoot_timer = 0;
 state = "move";
+
+// Create Event for obj_enemy
+health_ =100;
+speed_ = [0, 0];
