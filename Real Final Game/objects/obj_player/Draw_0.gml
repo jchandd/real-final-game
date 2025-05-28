@@ -10,7 +10,7 @@ var health_percent = health / max_health;
 
 // Position the health bar slightly above the character
 var bar_x = x - bar_width / 2;
-var bar_y = y - sprite_height / 2 - 10;
+var bar_y = y - sprite_height / 1 - 5;
 
 // Draw background (gray)
 draw_set_color(c_gray);
