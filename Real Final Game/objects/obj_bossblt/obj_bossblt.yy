@@ -2,8 +2,11 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_bossblt",
-  "spriteId": null,
-  "solid": false,
+  "spriteId": {
+    "name": "spr_bossblt",
+    "path": "sprites/spr_bossblt/spr_bossblt.yy",
+  },
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
