@@ -1,6 +1,6 @@
 // Decrease Health
 
-// Example: Take 10 damage
+// Example: Take 100 damage
 health -= 100;
 
 // Prevent health from going below zero
