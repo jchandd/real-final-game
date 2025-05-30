@@ -18,7 +18,10 @@ is_climbing = false;      // On ladder?
 climb_speed = 2.5;        // Climbing speed
 
 // ######################## OBJECT REFERENCES ########################
-ground_object = obj_ground;   // Replace with your ground object's name
+if (place_meeting(x, y+1, obj_ground) || place_meeting(x, y+1, obj_ground2)) {
+    // standing on ground
+}
+
 ladder_object = obj_ladder;   // Replace with your ladder object's name
 
 

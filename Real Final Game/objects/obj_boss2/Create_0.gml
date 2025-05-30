@@ -7,6 +7,5 @@ shoot_timer = 0;
 state = "move";
 
 // Create Event for obj_enemy
-health_ =100;
+health_ =250;
 speed_ = [0, 0];
-
