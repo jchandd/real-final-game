@@ -6,7 +6,7 @@
     "name": "spr_deathwall",
     "path": "sprites/spr_deathwall/spr_deathwall.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

@@ -29,10 +29,3 @@ else if (x > room_width - sprite_width) {
     hspeed = lengthdir_x(abs(hspeed), angle);
     vspeed = lengthdir_y(abs(vspeed), angle);
 }
-
-if (y < 0) {
-    y = 0;
-    var angle = irandom_range(135, 225); // roughly pointing left and down
-    hspeed = lengthdir_x(abs(hspeed), angle);
-    vspeed = lengthdir_y(abs(vspeed), angle);
-}

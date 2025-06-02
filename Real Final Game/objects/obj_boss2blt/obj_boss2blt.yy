@@ -6,7 +6,7 @@
     "name": "spr_boss2blt",
     "path": "sprites/spr_boss2blt/spr_boss2blt.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
