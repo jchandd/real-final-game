@@ -1,8 +1,11 @@
-health_ = 60; // set initial health
-// now you can subtract or modify health_ safely
-instance_destroy()
-var dir = other.direction;
-speed_ = lengthdir_x(8, dir);
-speed_ = lengthdir_y(8, dir);
+// Create event
+move_speed = 2;
+pause_time = 60; // frames
+shoot_cooldown = 30;
+pause_timer = 0;
+shoot_timer = 0;
+state = "move";
 
-;
+// Create Event for obj_enemy
+health_ =75;
+speed_ = [0, 0];
