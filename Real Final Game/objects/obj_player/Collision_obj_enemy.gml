@@ -14,16 +14,3 @@ if (health < 0) {
     // Optional: add death logic here
     // instance_destroy(); or other game over code
 }
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 4B4CFD60
-/// @DnDArgument : "var" "health"
-if(health == 0)
-{
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 2E914933
-	/// @DnDParent : 4B4CFD60
-	instance_destroy();
-}
