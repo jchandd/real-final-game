@@ -28,6 +28,7 @@
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},"order":7,},
     {"id":{"name":"obj_ground2","path":"objects/obj_ground2/obj_ground2.yy",},"order":16,},
     {"id":{"name":"spr_you_died","path":"sprites/spr_you_died/spr_you_died.yy",},"order":19,},
+    {"id":{"name":"obj_enemyparent","path":"objects/obj_enemyparent/obj_enemyparent.yy",},"order":19,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":5,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":6,},
     {"id":{"name":"snd_alien1","path":"sounds/snd_alien1/snd_alien1.yy",},"order":1,},
@@ -62,7 +63,7 @@
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
