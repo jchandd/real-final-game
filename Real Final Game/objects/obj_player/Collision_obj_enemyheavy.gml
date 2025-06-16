@@ -11,16 +11,3 @@ health -= 10;
 if (health < 0) {
     health = 0;
 }
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 2BB3D7E1
-/// @DnDArgument : "var" "health"
-if(health == 0)
-{
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 0F348AD5
-	/// @DnDParent : 2BB3D7E1
-	instance_destroy();
-}
