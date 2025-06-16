@@ -42,9 +42,17 @@ if health_ <= 0 {
 /// @DnDArgument : "var" "health_"
 if(health_ == 0)
 {
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 6E69B084
+	/// @DnDParent : 4F6E8F1C
+	/// @DnDArgument : "soundid" "snd_alien1"
+	/// @DnDSaveInfo : "soundid" "snd_alien1"
+	audio_play_sound(snd_alien1, 0, 0, 1.0, undefined, 1.0);
+
 	/// @DnDAction : YoYo Games.Rooms.Next_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 2138BA73
+	/// @DnDHash : 1B91FF70
 	/// @DnDParent : 4F6E8F1C
 	room_goto_next();
 }

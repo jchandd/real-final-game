@@ -9,7 +9,6 @@
     {"id":{"name":"obj_boss2blt","path":"objects/obj_boss2blt/obj_boss2blt.yy",},"order":14,},
     {"id":{"name":"level_2","path":"rooms/level_2/level_2.yy",},"order":3,},
     {"id":{"name":"spr_boss2blt","path":"sprites/spr_boss2blt/spr_boss2blt.yy",},"order":14,},
-    {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},"order":7,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":1,},
     {"id":{"name":"level_1","path":"rooms/level_1/level_1.yy",},"order":1,},
     {"id":{"name":"spr_boss2","path":"sprites/spr_boss2/spr_boss2.yy",},"order":13,},
@@ -47,6 +46,9 @@
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":5,},
     {"id":{"name":"snd_alien2","path":"sounds/snd_alien2/snd_alien2.yy",},"order":0,},
     {"id":{"name":"spr_end","path":"sprites/spr_end/spr_end.yy",},"order":18,},
+    {"id":{"name":"gamemanager","path":"objects/gamemanager/gamemanager.yy",},"order":18,},
+    {"id":{"name":"snd_maintheme","path":"sounds/snd_maintheme/snd_maintheme.yy",},"order":2,},
+    {"id":{"name":"level_gameover","path":"rooms/level_gameover/level_gameover.yy",},"order":7,},
     {"id":{"name":"level_start","path":"rooms/level_start/level_start.yy",},"order":0,},
   ],
   "Options": [
@@ -74,7 +76,7 @@
     {"roomId":{"name":"level_4","path":"rooms/level_4/level_4.yy",},},
     {"roomId":{"name":"level_5","path":"rooms/level_5/level_5.yy",},},
     {"roomId":{"name":"level_end","path":"rooms/level_end/level_end.yy",},},
-    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
+    {"roomId":{"name":"level_gameover","path":"rooms/level_gameover/level_gameover.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":10,},
